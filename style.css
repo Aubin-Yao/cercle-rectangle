@@ -1,0 +1,35 @@
+.cercle {
+    color: white;
+    background-color: blue;
+    border-radius: 100%;
+    display: 10px;
+    text-align: center;
+    margin: 050px;
+    padding: 050px;
+    width: 200px;
+    aspect-ratio: 1;   
+}
+.rectangle{
+    color: blue;
+    background-color: yellow; 
+    padding: 20px;
+    text-align: justify;
+    font-size: 20px;
+    height: 10px;
+
+    
+    
+}
+.rectangle:hover{
+    color: green;
+    background-color: blue;
+    height: auto;
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+.cercle:hover{
+    transition: 0.5s;
+    color: red;
+    background-color: green;
+    transform: rotate(180deg);
+}
